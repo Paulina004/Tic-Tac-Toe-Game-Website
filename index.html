@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tic-Tac-Toe</title>
+        
+        <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <link
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        
+        <!-- My CSS-->
+        <link href="mycss.css" rel="stylesheet" />
+        
+        <!-- My JavaScript-->
+        <script src="myjs.js"></script>
+        
+    </head>
+    
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Tic-Tac-Toe</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">Game</a></li>
+                <li class="sidebar-nav-item "><a href="#services">Rules</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center bg_tweaks">
+            <div class="container px-4 px-lg-5 text-center text_tweaks">
+                <h1 class="mb-1 title_tweaks">Play Tic-Tac-Toe here!</h1>
+                <h3 class="mb-5"><em>Click below to start playing.</em></h3>
+                <a class="service-icon rounded-circle mx-auto mb-3 circle_button_tweaks" href="#about"><i class="fas fa-gamepad"></i></a>
+            </div>
+        </header>
+        
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>The game board is below. Have fun!</h2>
+                        <p class="lead mb-5">
+                            To view the rules, please click on the button below. The winner of each game will be displayed below the board.
+                        </p>
+                        <a class="mb-5 btn btn-dark button_tweaks" href="#services">View the Rules Here</a>
+                    </div>
+                    <div id="tictactoe" class="table th td table-responsive"></div>
+                    <div id="results"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2 class="mb-5">Rules</h2>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3 circle_tweaks"><i class="fas fa-user-friends"></i></span>
+                        <h4><strong>Who's who?</strong></h4>
+                        <p class="text-faded mb-0">The first player to start the match will be X, and the second player will be O.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3 circle_tweaks"><i class="fas fa-hourglass-start"></i></span>
+                        <h4><strong>How do I start playing?</strong></h4>
+                        <p class="text-faded mb-0">Simply click on the box in which you would like to place your X or O.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3 circle_tweaks"><i class="fas fa-question"></i></span>
+                        <h4><strong>How exactly do I play?</strong></h4>
+                        <p class="text-faded mb-0">
+                            The first player to get 3 in a row is the winner.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3 circle_tweaks"><i class="fas fa-thumbs-up"></i></span>
+                        <h4><strong>What else?</strong></h4>
+                        <p class="text-faded mb-0">That's it! Just enjoy the game and have fun.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <p class="text-muted small mb-0">Template theme courtesy of <a href="https://startbootstrap.com/theme/stylish-portfolio">Start Bootstrap</a></p>
+            </div>
+        </footer>
+        
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+    </body>
+    
+</html>
